@@ -4,7 +4,7 @@
 
 ```sh
 git clone git@github.com:OAtulA/SOME-NOTES.git
-cd SOME-NOTES
+cd SOME-NOTES/Backend
 npm i
 npm run start
 ```
