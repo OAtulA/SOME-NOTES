@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note Page</title>
+    <!-- Include CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Create / Edit Note</h1>
+    <form id="noteForm">
+        <label for="noteHeading">Note Heading:</label>
+        <input type="text" id="noteHeading" required>
+        <label for="noteContent">Note Content:</label>
+        <textarea id="noteContent" required></textarea>
+        <button type="submit">Save Note</button>
+    </form>
+    <button id="backBtn">Back</button>
+    <!-- Include JS scripts -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="notes.js"></script>
+</body>
+</html>
