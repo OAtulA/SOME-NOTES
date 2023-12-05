@@ -1,4 +1,13 @@
-# I am getting the cors error 
+# I am getting the cors error
+
+## SETUP
+
+```sh
+git clone git@github.com:OAtulA/SOME-NOTES.git
+cd SOME-NOTES
+npm i
+npm run start
+```
 
 Hi I am using Node.js and express.js for backend.  
 Now I have used the `cors` still I am getting the cors error on the frontend.  
