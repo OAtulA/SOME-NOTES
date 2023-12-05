@@ -2,6 +2,8 @@
 
 ## SETUP
 
+Please ensure the MONGODB is installed and working on the local system.
+
 ```sh
 git clone git@github.com:OAtulA/SOME-NOTES.git
 cd SOME-NOTES/Backend

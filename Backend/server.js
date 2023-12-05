@@ -22,7 +22,7 @@ app.get('/', (req, res)=>{
 })
 
 // Connect to MongoDB
-let dbURL=  process.env.MONGO_URL ;
+let dbURL=  process.env.MONGO_URL|| "127.0.0.1:27017/SOME-NOTES" ;
 
 const connectDB = async()=>{
     try{
